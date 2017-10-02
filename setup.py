@@ -5,8 +5,8 @@
 from setuptools import setup
 
 setup(
-    name='pytest-flake8',
-    version='0.8.1',
+    name='pytest-flake8_2',
+    version='0.9.0',
     description='pytest plugin to check FLAKE8 requirements',
     long_description=open("README.rst").read(),
     classifiers=[
@@ -24,9 +24,9 @@ setup(
         "Topic :: Software Development :: Testing",
     ],
     license="BSD License",
-    author='Thorsten Lockert',
-    author_email='tholo@sigmasoft.com',
-    url='https://github.com/tholo/pytest-flake8',
+    author='Michael Miller',
+    author_email='mikemill@gmail.com',
+    url='https://github.com/mikemill/pytest-flake8',
     py_modules=[
         'pytest_flake8',
     ],

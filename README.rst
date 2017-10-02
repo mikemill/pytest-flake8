@@ -96,7 +96,8 @@ Note that doc/conf.py was not considered or imported.
 Notes
 -----
 
-The repository of this plugin is at https://github.com/tholo/pytest-flake8
+The repository of this plugin is at https://github.com/mikemill/pytest-flake8
+Which is a fork of https://github.com/tholo/pytest-flake8
 
 For more info on py.test see http://pytest.org
 
