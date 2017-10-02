@@ -57,6 +57,7 @@ def pytest_configure(config):
         config._flake8statistics = config.getini("flake8-statistics")
         config._flake8exts = config.getini("flake8-extensions")
         config._flake8cachealgorithm = config.getini('flake8-cache')
+        config.addinivalue_line('markers', "flake8: Tests which run flake8.")
         if hasattr(config, 'cache'):
             if config._flake8cachealgorithm == 'hash':
                 histkey = HISTKEY_HASH
