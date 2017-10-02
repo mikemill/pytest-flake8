@@ -11,4 +11,4 @@ install:
     - python setup.py install
 
 script:
-    - py.test --flake8 --flake8-ignore=E128
+    - py.test --flake8
